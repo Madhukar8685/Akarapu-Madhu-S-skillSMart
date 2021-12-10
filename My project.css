@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+   li{
+    margin-right:20px;
+  
+  }
+  ul{
+    background: cornsilk;
+    display:inline-block;
+  
+  }
+  h1 
+  {
+    margin-right: 20px;
+    padding-top:10px;
+    font-family: "Times New Roman";
+    color: green;
+    background-color: silver;
+  }
+  
+  @media (max-width: 600px)
+  {
+  .jumbotron
+  {
+    width: 100%;
+  }
+  
+  
+  #e
+  {
+    width: 100%;
+  }
+  
+  
+  #def
+  {
+    width: 100%;
+  }
+  #ghi
+  {
+    width: 100%
+  }
+  }
+  
+  /* Home page stylings 
+  *
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+  } */
+  .card
+  {
+    position: relative;
+    width:1000px;
+    min-height:1300px;
+    background: #fff;
+    box-shadow: 15px 15px 60px rgba(20,0,0,30,15);
+    padding: 20px;
+  
+  }
+  .card .top
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card .top .userDetails
+  {
+    display: flex;
+    align-items: center;
+  
+  }
+  .card .top .userDetails .profile-img
+  {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    margin-right:20px;
+  }
+  .card .top .userDetails h2 
+  {
+    font-size: 30px;
+    color: #4d4d4f;
+    font-weight: 500;
+    line-height: 1.25em;
+  }
+  .card .top .userDetails h2 span
+  {
+    font-size: 1em;
+  }
+  .dot
+  {
+    transform: scale(0.6);
+    cursor: pointer;
+  }
+  .imgBx
+  {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: 10px 10px 15px 10px;
+  }
+  .actionBtns
+  {
+    margin-top:8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .actionBtns .left
+  {
+    margin-right: 30px;
+  }
+  
+  .likes
+  {
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 25px;
+    color: #4d4d4f;
+  }
+  .message
+  {
+    font-weight: 400;
+    margin-top: 5px;
+    color: #777;
+    line-height: 1.5em;
+  }
+  .message b
+  {
+    margin-right: 8px;
+    color: #262626;
+  }
+  .comments
+  {
+    margin-top: 10px;
+    font-weight: 400;
+    color: #999;
+  }
+  .addComments
+  {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .addComments .userImg
+  {
+    position: relative;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+  }
+  .text
+  {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 25px;
+    color: #262626;
+  }
+  .text::placeholder
+  {
+    font-weight:600;
+    color: #777;
+  }
+  .postTime
+  {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #777;
+  }
+  .cards
+  {
+    position: relative;
+    width:500px;
+    height: 800px;
+    display: inline-block;
+    background: #fff;
+    box-shadow: 15px 15px 60px rgba(0,0,0,0,15);
+    padding: 20px;
+  
+  }
+  .cards .card-img-top
+  {
+    position: relative;
+      width: 100%;
+      height: 500px;
+      margin: 10px 10px 15px 10px;
+  }
+  .cards .card-body
+  {
+    align-content: center;
+  }
+  
+  /* Photography  cards stylings */
+  .cardss{
+    position: relative;
+    width:100%;
+    height:80%;
+    display:inline-block;
+    background-color:white;
+    box-shadow:2px 2px solid black;
+    margin-top: 40px;
+    border-radius: 30px;
+    margin-left:20px;
+  }
+  .image img{
+    width:100%;
+    margin-top:30px;
+    margin-left:30px;
+  
+  }
+  .title{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  /* stylings of validation */
+  .wrapper
+  {
+   position:absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   max-width: 100%;
+   background-color: #ffffff;
+   padding: 25px;
+   border-radius: 5px;
+   box-shadow: 4px 4px 2px blueviolet;
+  }
+  .wrapper h2{
+   text-align: center;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color:crimson;
+  }
+  .wrapper .input_field
+  {
+   margin-bottom: 10px;
+  }
+  /*.wrapper .input_field input[type="text"],.wrapper textarea
+  {
+   width: 100%;
+   border:1px solid #e0e0e0;
+   padding: 10px;
+  }
+  .wrapper textarea
+  {
+    height: 80px;
+    resize: none;
+  }
+  */
+  .wrapper .btn input[type="register"] {
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: darkgreen;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .wrapper #error_message {
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: #ffee88;
+    text-align: center;
+    font-size: 15px;
+    transition: all o.5s ease;
+  }
